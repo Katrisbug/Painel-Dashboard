@@ -1,0 +1,52 @@
+.logo {
+    margin: 20px;
+    color: white;
+    background-color: rgb(220, 5, 5);
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.side-bar{
+    width:230px;
+    background:#ffffff;
+    padding:20px;
+    border-right:1px solid #eee;
+    display: grid;
+}
+
+.side-bar > nav > a{
+    display:block;
+    padding:10px;
+    margin-bottom:10px;
+    color:#333;
+    text-decoration:none;
+    border-radius:6px;
+    margin-top: 20px;
+}
+
+.side-bar > nav > svg {
+    margin-bottom: -4px;
+}
+
+.side-bar > nav > a.active{
+    background:#ffe6e6;
+    color:#e60023;
+}
+
+.menu-item:hover{
+    background: var(--hover-background);
+    color: var(--color-hover);
+}
+
+.suporte{
+    margin-top: 210px;
+    font-size:14px;
+    background: var(--background-suporte);
+    border-radius:12px;
+    padding:15px;
+}
+
+.suporte > p{
+    font-size:12px;
+    letter-spacing:1px;
+}
