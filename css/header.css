@@ -1,3 +1,7 @@
+.main-content {
+    padding: 30px;
+}
+
 .top-header{
     display:flex;
     justify-content:space-between;
@@ -5,12 +9,24 @@
     margin-bottom:30px;
 }
 
-.search{
-    width:400px;
-    padding:10px;
-    border-radius:8px;
-    border:1px #64748B;
-    background-color: #F1F5F9;
+h2 {
+    margin-bottom: 5px ;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #F1F5F9;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.search {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 300px;
 }
 
 .user{
@@ -19,6 +35,43 @@
     gap:10px;
 }
 
+.user div {
+    text-align: right;
+}
+
 .avatar > img{
     border-radius:50%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content p {
+    grid-column: 1 / 2;
+}
+
+.adicionar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adicionar button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #E30613;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: -60px;
+    
+}
+
+.adicionar button:hover {
+    background-color: #c00510;
 }

@@ -20,7 +20,12 @@
     /* H1 */
     --heading1-size: 20px;
     --heading1-height: 28px;
-    --heading1-weight: 700; 
+    --heading1-weight: 700;
+    
+    /* H2 */
+    --heading2-size: 30px;
+    --heading2-height: 36px;
+    --heading2-weight: 700; 
 
     /* paragrafo */
     --paragrafo-color: #64748B;
@@ -28,24 +33,42 @@
     --paragrafo-height: 24px;
     --paragrafo-weight: 400;
 
+    /* paragrafo 2 */
+    --paragrafo2-color: #FFFFFF;
+    --paragrafo2-size: 16px;
+    --paragrafo2-height: 24px;
+    --paragrafo2-weight: 600;
+
     /* span */
     --span-size: 14px;
     --span-height: 14px;
     --span-weight: 600;
+
+    /* span 2 */
+    --span2-size: 14px;
+    --span2-height: 16px;
+    --span2-weight: 400px;
+    --span2-color: #64748B;
+
 }
 
 body {
-    margin:0 auto;
     background: var(--background);
     display:grid;
     grid-template-columns:250px 1fr;
-    height:100px;
+    height:100vh;
 }
 
 h1 {
     font-size: var(--heading1-size);
     height: var(--heading1-height);
     font-weight: var(--heading1-weight);
+}
+
+h2 {
+    font-size: var(--heading2-size);
+    height: var(--heading2-height);
+    font-weight: var(--heading2-weight);
 }
 
 p {
@@ -63,4 +86,18 @@ span {
     font-size: var(--span-size);
     height: var(--span-height);
     font-weight: var(--span-weight);
+}
+
+.span2 {
+    font-size: var(--span2-size);
+    height: var(--span2-height);
+    font-weight: var(--span2-weight);
+    color: var(--span2-color);
+}
+
+.paragrafo2 {
+    font-size: var(--paragrafo2-size);
+    height: var(--paragrafo2-height);
+    font-weight: var(--paragrafo2-weight);
+    color: var(--paragrafo2-color);
 }
