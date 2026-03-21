@@ -2,6 +2,12 @@
     padding: 30px;
 }
 
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px 30px;
+    border-bottom: 1px solid #FFFFFFCC;
+}
+
 .top-header{
     display:flex;
     justify-content:space-between;
@@ -50,9 +56,14 @@ h2 {
     margin-bottom: 30px;
 }
 
-.content p {
-    grid-column: 1 / 2;
+.content h2 {
+    grid-column: 1;
 }
+
+.content p {
+    grid-column: 1;
+}
+
 
 .adicionar {
     display: flex;
@@ -65,13 +76,12 @@ h2 {
     gap: 10px;
     background-color: #E30613;
     border: none;
-    padding: 12px 18px;
-    border-radius: 8px;
+    padding: 14px 22px;
+    border-radius: 10px;
     cursor: pointer;
-    margin-top: -60px;
-    
+    transition: 0.2s;
 }
 
 .adicionar button:hover {
-    background-color: #c00510;
+    background-color: #b8050f;
 }

@@ -26,20 +26,33 @@
 .tag {
     padding: 4px 10px;
     border-radius: 20px;
-    font-size: 12px;
 }
 
-.green {
+.tag-green {
     background: #dcfce7;
-    color: #16a34a;
+    color: #10B981;
 }
 
-.gray {
+.tag-gray {
     background: #e2e8f0;
-    color: #475569;
+    color: #94A3B8;
 }
 
-.red {
+.tag-red {
     background: #fee2e2;
-    color: #dc2626;
+    color: #E30613;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #f1f5f9;
+    border-radius: 10px;
+}
+
+.icon.red {
+    background: #fee2e2;
 }

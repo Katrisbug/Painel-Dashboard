@@ -47,8 +47,13 @@
     /* span 2 */
     --span2-size: 14px;
     --span2-height: 16px;
-    --span2-weight: 400px;
+    --span2-weight: 400;
     --span2-color: #64748B;
+
+    /* tag */
+    --tag-size: 12px;
+    --tag-height: 16px;
+    --tag-weight: 700;
 
 }
 
@@ -100,4 +105,10 @@ span {
     height: var(--paragrafo2-height);
     font-weight: var(--paragrafo2-weight);
     color: var(--paragrafo2-color);
+}
+
+.tag{
+    font-size: var(--tag-size);
+    height: var(--tag-height);
+    font-weight: var(--tag-weight);
 }
