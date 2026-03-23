@@ -20,6 +20,7 @@ h2 {
 }
 
 .pesquisa {
+    width: 448px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -47,6 +48,7 @@ h2 {
 
 .avatar > img{
     border-radius:50%;
+    width: 40px;
 }
 
 .content {
