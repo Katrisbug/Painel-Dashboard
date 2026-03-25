@@ -27,6 +27,18 @@
     --heading2-height: 36px;
     --heading2-weight: 700; 
 
+    /* H3 */
+    --heading3-size: 24px;
+    --heading3-height: 32px;
+    --heading3-weight: 700;
+    --heading3-color: #0F172A;
+
+    /* H4 */
+    --heading4-size: 18px;
+    --heading4-height: 28px;
+    --heading4-weight: 700;
+    --heading4-color: #0F172A;
+
     /* paragrafo */
     --paragrafo-color: #64748B;
     --paragrafo-size: 16px;
@@ -74,6 +86,20 @@ h2 {
     font-size: var(--heading2-size);
     height: var(--heading2-height);
     font-weight: var(--heading2-weight);
+}
+
+h3 {
+    font-size: var(--heading3-size);
+    height: var(--heading3-height);
+    font-weight: var(--heading3-weight);
+    color: var(--heading3-color);
+}
+
+h4 { 
+    font-size: var(--heading4-size);
+    height: var(--heading4-height);
+    font-weight: var(--heading4-weight);
+    color: var(--heading4-color);
 }
 
 p {

@@ -4,9 +4,8 @@
     border: 1px solid #e5e7eb;
     border-radius: 10px;
     padding: 16px;
-    max-width: 960px;
-    min-height: 268px;
-    margin-left: 24px;
+    max-width: 100%;
+    margin: 30px;
 }
 
 /* HEADER */
@@ -21,12 +20,6 @@
     display: flex;
     align-items: center;
     gap: 16px;
-}
-
-.table-title {
-    font-size: 16px;
-    font-weight: 600;
-    color: #111827;
 }
 
 /* FILTERS */
@@ -78,6 +71,7 @@
     padding: 10px 12px;
     border-top: 1px solid #e5e7eb;
     border-bottom: 1px solid #e5e7eb;
+    background-color: #F8FAFC;
 }
 
 /* ROW */
