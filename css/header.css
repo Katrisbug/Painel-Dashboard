@@ -1,5 +1,6 @@
 .main-content {
     padding: 0;
+    padding-bottom: 150px; /* Espaço para escrolar até o final do conteúdo */
 }
 
 header {

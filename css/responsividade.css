@@ -1,0 +1,112 @@
+/* Desktop */
+@media screen and (max-width:1440px) and (min-width:1280px) {
+    .menu-toggle {
+        display: none;
+    }
+    
+    .bottom-nav {
+        display: none;
+    }
+
+    .fab {
+        display: none;
+    }
+}
+
+/* --TABLET-- */
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+    body {
+        display: block;
+    }
+
+    /* Sidebar */
+    .side-bar {
+        display: none;
+    }
+
+    .side-bar h1,
+    .side-bar nav a span,
+    .suporte,
+    .user-info {
+        display: none;
+    }
+
+
+    /* Header */
+    .top-header {
+        padding: 10px 15px;
+    }
+    
+    .pesquisa {
+        width: 344px;
+    }
+
+    /* Content */
+    .content {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    /* Botão Adicionar */
+    .adicionar {
+        display: none;
+    }
+
+    .fab {
+        position: fixed;
+        bottom: 90px;
+        right: 20px;
+        width: 85px;
+        height: 56px;
+        background: #E30613;
+        border: none;
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        cursor: pointer;
+    }
+
+    /* Cards empilhados */
+    .cards {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    /* Tabela */
+    .table {
+        margin: 20px;
+        overflow-x: auto;
+    }
+
+    .table-heade, 
+    .table-row {
+        min-width: 700px;
+    }
+
+    /* side-bar inferior */
+    .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        border-top: 1px solid #e5e7eb;
+    }
+
+    .bottom-nav a {
+        text-align: center;
+        font-size: 12px;
+        color: #64748B;
+        text-decoration: none;
+    }
+
+    .bottom-nav a.active {
+        color: #E30613;
+    }
+}
+
